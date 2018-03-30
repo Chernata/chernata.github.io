@@ -15,15 +15,25 @@
       <span class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
         <div class="btn-group">
+          <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Оповещения</button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="Notifications.html">У курса HTML сменился координатор</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Занятие по курсу SMM перенесено на час
+              <br> </a>
+          </div>
+        </div>
+        <div class="btn-group">
           <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown"> Профиль</button>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="My_courses.html">Мой профиль и программы</a>
+            <a class="dropdown-item" href="Messages.html">Сообщения</a>
             <a class="dropdown-item" href="#">Приведи подругу</a>
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Подарки</a>
             <a class="dropdown-item" href="#">Платежи</a>
             <a class="dropdown-item" href="#">Настройки</a>
-            <a class="dropdown-item" href="#">Партнерская программы</a>
+            <a class="dropdown-item" href="#">Партнерская программа</a>
             <a class="dropdown-item" href="#">Выход
               <br> </a>
           </div>
@@ -113,8 +123,12 @@
             <tbody>
               <tr>
                 <td>
-                  <img class="d-block rounded-circle m-0" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg" width="45" height="45"> </td>
-                <td class="text-secondary align-items-center align-self-center justify-content-center text-left" href="Profile1.html">Александра Савельева</td>
+                  <a href="Profile1.html">
+                    <img class="d-block rounded-circle m-0" src="https://pingendo.com/assets/photos/wireframe/photo-1.jpg" width="45" height="45"> </a>
+                </td>
+                <td class="text-secondary align-items-center align-self-center justify-content-center text-left">
+                  <a class="btn btn-link" href="Profile1.html">Александра Савельева</a>
+                </td>
                 <td>18/19</td>
                 <td>600</td>
               </tr>
